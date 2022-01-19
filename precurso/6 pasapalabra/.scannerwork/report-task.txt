@@ -1,0 +1,6 @@
+projectKey=6-pasapalabra
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=6-pasapalabra
+ceTaskId=AX5z5RsCDFtG14zT5VZ6
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX5z5RsCDFtG14zT5VZ6
