@@ -1,0 +1,6 @@
+projectKey=2-calculadora-pro
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=2-calculadora-pro
+ceTaskId=AX5z2yZODFtG14zT5VZG
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX5z2yZODFtG14zT5VZG
