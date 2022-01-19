@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="pasapalabra.css">
+ 
+</head>
+<body>
+
+  <div id="panelPrincipal">
+
+    <div id="panelMarcadores">
+      <canvas id="marcadores" width="180" height="500"></canvas> 
+
+    </div>
+
+    <div id="panelRosco">
+
+      <canvas id="rosco" width="500" height="500"></canvas> 
+
+    </div>
+
+    <div id="panelRespuestaCorrecta">
+       <p id="textoRespuestaCorrecta"></p>
+       <div id="contenedorBotonRespuestaCorrecta">
+         <input type="button" id="botonRespuestaCorrecta" value="VOLVER">
+       </div>
+    </div>
+
+    <div id="panelInformacion">
+      <div id="panelInfoSuperior">
+        <h1 id="bienvenidos"></h1>
+        <p id="instrucciones"></p>
+        <h1 id="escribaLaPalabra"></h1>
+        <p id="definicionesPalabras"></p>
+		<h1 id="mensajeFinal"></h1>
+		<p id="resumenResultados"></p>
+      </div>
+
+      <div id="panelInfoInferiorBotonJugar">
+        <p id="textoJugar">Pulse 'JUGAR' para empezar.</p>
+        <input type="button" id="botonJugar" value="JUGAR">
+      </div>
+      <div id="panelInfoInferiorIntroducirPalabra">
+        <p id="textoPasapalabra">Escriba aquí la palabra</p>
+		<div id="inputBoton">
+                    <input type="text" id="campoPalabra" autofocus>
+                    <input type="button" id="botonOK" value="OK">
+		</div>	
+        <input type="button" id="botonPasapalabra" value="PASAPALABRA">
+        <input type="button" id="botonAcabar" value="ACABAR">
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="pasapalabra.js"></script>
+
+</body>
+</html>
