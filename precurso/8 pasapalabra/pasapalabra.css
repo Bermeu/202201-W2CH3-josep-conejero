@@ -1,0 +1,293 @@
+﻿
+body {
+     box-sizing: border-box;
+     margin: 0px;
+     height: 400px;
+     background-color: #7200ff;
+     padding: 0px;
+}
+
+#panelPrincipal {
+    box-sizing: border-box;
+    padding: 0px;
+    width: 1300px;
+    margin: auto;
+    background-color: #00c3ff;
+    margin-top: 40px;
+}
+
+#panelMarcadores {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #7200ff;
+    width: 15%;
+    height: 520px;
+    float: left;
+}
+
+#panelRosco {
+    box-sizing: border-box;
+    background-color: #7200ff;
+    margin: 0px;
+    padding: 0px;
+    width: 40%;
+    height: 520px;
+    margin: auto;
+    float: left;
+}
+
+/* ESTE SE UTILIZA TAMBIÉN PARA MOSTRAR EL MENSAJE DE EQUIVOCACIÓN*/
+#panelRespuestaCorrecta {
+    box-sizing: border-box;
+    background-color: #7200ff;
+    margin: 0px;
+    width: 45%;
+    height: 520px;
+    padding: 0px;
+    float: left;
+}
+
+#textoRespuestaCorrecta {
+   padding-top: 150px;
+   padding-bottom: 50px;
+   width: 520px;
+   heigth: 200px;
+   margin: auto;
+   color: yellow;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 140%;
+   text-align: center;
+}
+
+#botonRespuestaCorrecta {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width:180px;
+    height:50px;
+    margin:auto;
+    background-color: #3700ff;
+    font-size: 120%;
+    text-align: center;
+    color: yellow;
+}
+
+#panelInformacion{
+    box-sizing: border-box;
+    background-color: #7200ff;
+    margin: 0px;
+    width: 45%;
+    height: 520px;
+    padding: 0px;
+    float: left;
+}
+
+canvas {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#panelInfoSuperior {
+    box-sizing: border-box;
+    background-color: #7200ff;
+    margin: 0px;
+    padding-top:20px;
+    width: 100%;
+    height: 300px;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* DEL PANEL INFO SUPERIOR 1 */
+#bienvenidos {
+    margin: 0px;
+    padding-top: 10px;
+    width:250px;
+    height:90px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: #fffb00;
+}
+
+#instrucciones {
+    margin: 0px;
+    padding-top: 20px;
+    width:520px;
+    height:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    font-size: 120%;
+    text-align: justify;
+    color: #fffb00;
+}
+
+/* DEL PANEL INFO SUPERIOR 2 */
+#escribaLaPalabra {
+    margin: 0px;
+    padding-top: 10px;
+    width:500px;
+    height:90px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    color: #fffb00;
+}
+
+#definicionesPalabras {
+    margin: 0px;
+    padding-top: 20px;
+    width:520px;
+    height:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    font-size: 180%;
+    text-align: justify;
+    color: #fffb00;
+}
+
+/* DEL PANEL INFO SUPERIOR 3 */
+#mensajeFinal {
+    margin: 0px;
+    padding-top: 10px;
+    width:500px;
+    height:90px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 170%;
+    text-align: center;
+    color: #fffb00;
+}
+
+#resumenResultados {
+    margin: 0px;
+    padding-top: 10px;
+    width:520px;
+    height:200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    font-size: 130%;
+    text-align: center;
+    color: #fffb00;
+}
+
+/* ------------------------------------------------------------------- */
+
+#panelInfoInferiorBotonJugar {
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 40px;
+    background-color: #7200ff;
+    width: 100%;
+    height: 200px;
+}
+
+#textoJugar {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:270px;
+    height:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    font-size: 120%;
+    text-align: justify;
+    color: #fffb00;
+}
+
+#botonJugar {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width:180px;
+    height:50px;
+    margin:auto;
+    background-color: #3700ff;
+    font-size: 120%;
+    text-align: center;
+    color: yellow;
+}
+
+/* -------------------------- PANEL INFERIOR DERECHO ------------------------- */
+
+#panelInfoInferiorIntroducirPalabra {
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 40px;
+    background-color: #7200ff;
+    width: 100%;
+    height: 200px;
+}
+
+#textoPasapalabra {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 270px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 110px;
+    font-size: 130%;
+    text-align: left;
+    color: #fffb00;
+}
+
+#inputBoton {
+        padding-left: 60px;
+	width: 500px;
+	align: auto;
+}
+
+#campoPalabra {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 300px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    font-size: 150%;
+    text-align: center;
+    color: #7200ff;
+    float: left;
+}
+
+#botonOK {
+    width:180px;
+    height:45px;
+    background-color: #3700ff;
+    font-size: 130%;
+    text-align: center;
+    color: yellow;
+    float: left;
+}
+
+#botonPasapalabra {
+    display: block;
+    width:305px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: #3700ff;
+    font-size: 130%;
+    text-align: center;
+    color: yellow;
+    float:left;
+}
+
+#botonAcabar {
+    display: block;
+    width: 179px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 41px;
+    background-color: #ff0000;
+    font-size: 130%;
+    text-align: center;
+    color: yellow;
+    float: right;
+}
+
