@@ -1,0 +1,6 @@
+projectKey=1-calculadora
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=1-calculadora
+ceTaskId=AX5z1Oj3DFtG14zT5VY4
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX5z1Oj3DFtG14zT5VY4
